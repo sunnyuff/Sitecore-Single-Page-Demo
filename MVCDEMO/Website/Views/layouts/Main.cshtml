@@ -1,0 +1,35 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+    Layout = "/Website/Views/Shared/_Layout.cshtml";
+}
+@*Dynamically Binding header.*@
+@Html.Sitecore().Placeholder("header")
+@*Statically Binding header.*@
+<div style="margin: 20px;padding: 10px;">
+    @Html.Sitecore().ViewRendering("/Website/Views/Renderings/Header.cshtml")
+</div>
+<div class="row col-sm-12 main-content">
+    <div class="col-sm-12">
+       <div class="row">
+            <div class="col-md-12">
+                <div class="inner container">
+                    <h1 class="inner container">
+                        @Html.Sitecore().Field("Title")
+                    </h1>
+                    <div class="col-md-2">@Html.Sitecore().Field("Brand Logo", new { @class = "img-responsive", @mw = "100" })</div>
+                    <div class="col-md-10">
+                        <h2>@Html.Sitecore().Field("Brand Heading")</h2>
+                    </div>
+                    <br/>
+                    <div class="col-md-12">
+                        @Html.Sitecore().Field("Brand Description")
+                    </div>
+                    <br />
+                </div>
+            </div>
+        </div>
+        @Html.Sitecore().Placeholder("main")
+    </div>
+</div>

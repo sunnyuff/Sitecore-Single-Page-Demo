@@ -1,0 +1,53 @@
+﻿.page-moveToLeft {
+	-webkit-animation: moveToLeft .6s ease both;
+	animation: moveToLeft .6s ease both;
+}
+
+@-webkit-keyframes moveToLeft {
+	from { -webkit-transform: translateX(100%); }
+	to { -webkit-transform: translateX(0%); }
+}
+@keyframes moveToLeft {
+	from { -webkit-transform: translateX(100%); }
+	to { -webkit-transform: translateX(0%); transform: translateX(0%); }
+}
+
+.o-loading-spinner {
+    display:none;
+    border: 2px solid transparent;
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+    position: fixed;
+    margin: -25px 0 0 -25px;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    border-top-color: #fff;
+}
+
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.5); /*dim the background*/
+   display:none;
+}
+
+.is-exiting .overlay {
+display:block;
+}
+
+.is-exiting .o-loading-spinner {
+display:block;
+}
+
+
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }

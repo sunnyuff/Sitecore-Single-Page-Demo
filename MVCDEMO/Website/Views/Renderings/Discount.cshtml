@@ -1,0 +1,10 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@if (Model.Item != null)
+{
+    <div class="highlight">
+        @Html.Sitecore().Field("Discount Image", new { @class = "img-responsive", @w = "1200", @as = true })
+        <br />
+    </div>
+}

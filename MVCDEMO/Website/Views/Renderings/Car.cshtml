@@ -1,0 +1,17 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@if (Model.Item != null)
+{
+    <div class="highlight">
+        @Html.Sitecore().Field("Car Image", Model.Item, new { @class = "img-responsive", @mw = "600"})
+        <br />
+        Tagline : @Html.Sitecore().Field("Title", Model.Item)
+        <br />
+        Car Model :@Html.Sitecore().Field("Car Model", Model.Item)
+        <br />
+        Car Price:@Html.Sitecore().Field("Car Price", Model.Item)
+        <br />
+        Car Image : @Html.Sitecore().Field("Car Description", Model.Item)
+    </div>
+}

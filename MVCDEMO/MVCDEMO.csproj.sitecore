@@ -1,0 +1,45 @@
+﻿<Project>
+  <PropertyGroup>
+    <Site Server="mvc3" UserName="sitecore\admin" IsRemoteSitecore="True" />
+  </PropertyGroup>
+  <File Include="Website\Views\Shared\_Layout.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{F791722E-C4CF-43AF-89E6-E76EACCFA87B}</Item>
+  </File>
+  <File Include="/Website/Views/Shared/_Layout.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{F791722E-C4CF-43AF-89E6-E76EACCFA87B}</Item>
+  </File>
+  <File Include="Website\Views\layouts\Main.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{CAFBFB4F-D021-4133-BDEE-F1FF8E43ECD8}</Item>
+  </File>
+  <File Include="/Website/Views/layouts/Main.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{CAFBFB4F-D021-4133-BDEE-F1FF8E43ECD8}</Item>
+  </File>
+  <File Include="/Website/Views/layouts/OneColumn.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{C2B4E3A2-0FDE-4091-B991-9C15A9228DDB}</Item>
+  </File>
+  <File Include="/Website/Views/SubLayouts/TwoColumn.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{8810B66D-766B-49EA-BCB9-5A73C845B051}</Item>
+  </File>
+  <File Include="/Website/Views/SubLayouts/ThreeColumn.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{136BE160-7B95-451A-86F7-5F03CB9D7E37}</Item>
+  </File>
+  <File Include="Website\Views\Renderings\OneColumn.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{06D2EF9B-C14A-4816-9F85-C93DBDBBF135}</Item>
+  </File>
+  <File Include="Website\Views\Renderings\Header.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{76845250-5BC0-430A-9C8B-B880C9472ADA}</Item>
+  </File>
+  <File Include="Website\Views\Renderings\Text.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{1827C4D0-F675-4320-B634-BF5E326411AB}</Item>
+  </File>
+  <File Include="Tabletapp\Views\Shared\_Layout.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{8EC14B1C-BFA6-40D0-8A3F-F0B64648C4C3}</Item>
+  </File>
+  <File Include="/Tabletapp/Views/Shared/_Layout.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{8EC14B1C-BFA6-40D0-8A3F-F0B64648C4C3}</Item>
+  </File>
+  <File Include="Tabletapp\Views\Layouts\Main.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0" />
+  <File Include="/Tabletapp/Views/Layouts/Main.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{F30FCB86-229A-4483-ADE7-60E95C744279}</Item>
+  </File>
+</Project>

@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\mvc3\Website</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Config/Include/MVCDEMO.config">
+      <publishTime>03/31/2016 17:38:51</publishTime>
+    </File>
+    <File Include="bin/Dropbox.Api.dll">
+      <publishTime>12/15/2016 12:53:09</publishTime>
+    </File>
+    <File Include="bin/MVCDEMO.dll">
+      <publishTime>12/15/2016 14:24:28</publishTime>
+    </File>
+    <File Include="bin/MVCDEMO.pdb">
+      <publishTime>12/15/2016 14:24:28</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>12/15/2016 12:53:09</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>12/15/2016 12:53:11</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/bootstrap-social.css">
+      <publishTime>01/26/2016 01:20:12</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/bootstrap.css">
+      <publishTime>01/26/2016 01:20:12</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/bootstrap.css.map">
+      <publishTime>01/26/2016 01:20:12</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/bootstrap.min.css">
+      <publishTime>01/08/2016 09:16:48</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/default.css">
+      <publishTime>02/18/2016 06:58:58</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/fontawesome-webfont.eot">
+      <publishTime>01/08/2016 09:16:48</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/fontawesome-webfont.svg">
+      <publishTime>01/08/2016 09:16:48</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/fontawesome-webfont.ttf">
+      <publishTime>01/08/2016 09:16:48</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/fontawesome-webfont.woff">
+      <publishTime>01/08/2016 09:16:48</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/fontawesome.eot">
+      <publishTime>01/26/2016 01:20:12</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/FontAwesome.otf">
+      <publishTime>01/08/2016 09:16:48</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/fontawesome.svg">
+      <publishTime>01/26/2016 01:20:12</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/fontawesome.ttf">
+      <publishTime>01/26/2016 01:20:12</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/fontawesome.woff">
+      <publishTime>01/26/2016 01:20:12</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/generator_config.txt">
+      <publishTime>01/08/2016 09:16:48</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>01/26/2016 01:20:12</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>01/26/2016 01:20:12</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>01/26/2016 01:20:12</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>01/26/2016 01:20:12</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>01/26/2016 01:20:12</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/parachute_-_pfbaguesanspro-bold-demo.html">
+      <publishTime>01/08/2016 09:16:48</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/parachute_-_pfbaguesanspro-bold-webfont.eot">
+      <publishTime>01/08/2016 09:16:48</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/parachute_-_pfbaguesanspro-bold-webfont.svg">
+      <publishTime>01/08/2016 09:16:48</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/parachute_-_pfbaguesanspro-bold-webfont.ttf">
+      <publishTime>01/08/2016 09:16:48</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/parachute_-_pfbaguesanspro-bold-webfont.woff">
+      <publishTime>01/08/2016 09:16:48</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/parachute_-_pfbaguesanspro-bold-webfont.woff2">
+      <publishTime>01/08/2016 09:16:48</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/parachute_-_pfbaguesanspro-light-webfont.eot">
+      <publishTime>01/08/2016 09:16:48</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/parachute_-_pfbaguesanspro-light-webfont.svg">
+      <publishTime>01/08/2016 09:16:48</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/parachute_-_pfbaguesanspro-light-webfont.ttf">
+      <publishTime>01/08/2016 09:16:48</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/parachute_-_pfbaguesanspro-light-webfont.woff">
+      <publishTime>01/08/2016 09:16:48</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/parachute_-_pfbaguesanspro-regular-demo.html">
+      <publishTime>01/08/2016 09:16:48</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/parachute_-_pfbaguesanspro-regular-webfont.eot">
+      <publishTime>01/08/2016 09:16:50</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/parachute_-_pfbaguesanspro-regular-webfont.svg">
+      <publishTime>01/08/2016 09:16:50</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/parachute_-_pfbaguesanspro-regular-webfont.ttf">
+      <publishTime>01/08/2016 09:16:50</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/parachute_-_pfbaguesanspro-regular-webfont.woff">
+      <publishTime>01/08/2016 09:16:50</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/parachute_-_pfbaguesanspro-regular-webfont.woff2">
+      <publishTime>01/08/2016 09:16:50</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/parachute_-_pfbaguesanspro-thin-demo.html">
+      <publishTime>01/08/2016 09:16:50</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/parachute_-_pfbaguesanspro-thin-webfont.eot">
+      <publishTime>01/08/2016 09:16:50</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/parachute_-_pfbaguesanspro-thin-webfont.svg">
+      <publishTime>01/08/2016 09:16:50</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/parachute_-_pfbaguesanspro-thin-webfont.ttf">
+      <publishTime>01/08/2016 09:16:50</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/parachute_-_pfbaguesanspro-thin-webfont.woff">
+      <publishTime>01/08/2016 09:16:50</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/parachute_-_pfbaguesanspro-thin-webfont.woff2">
+      <publishTime>01/08/2016 09:16:50</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/specimen_files/grid_12-825-55-15.css">
+      <publishTime>01/08/2016 09:16:50</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/specimen_files/specimen_stylesheet.css">
+      <publishTime>01/08/2016 09:16:50</publishTime>
+    </File>
+    <File Include="Tabletapp/Content/Css/fonts/stylesheet.css">
+      <publishTime>01/08/2016 09:16:50</publishTime>
+    </File>
+    <File Include="Tabletapp/Views/Layouts/Main.cshtml">
+      <publishTime>04/05/2016 18:06:33</publishTime>
+    </File>
+    <File Include="Tabletapp/Views/Shared/_Layout.cshtml">
+      <publishTime>04/05/2016 17:58:45</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/09/2016 00:43:27</publishTime>
+    </File>
+    <File Include="Website/Content/Css/bootstrap-theme.min.css">
+      <publishTime>06/16/2015 16:12:50</publishTime>
+    </File>
+    <File Include="Website/Content/Css/bootstrap.min.css">
+      <publishTime>11/04/2015 08:34:25</publishTime>
+    </File>
+    <File Include="Website/Content/Css/style.css">
+      <publishTime>03/26/2016 13:35:05</publishTime>
+    </File>
+    <File Include="Website/Content/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>06/16/2015 15:56:18</publishTime>
+    </File>
+    <File Include="Website/Content/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>06/16/2015 15:56:18</publishTime>
+    </File>
+    <File Include="Website/Content/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>06/16/2015 15:56:18</publishTime>
+    </File>
+    <File Include="Website/Content/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>06/16/2015 15:56:18</publishTime>
+    </File>
+    <File Include="Website/Content/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>06/16/2015 15:56:18</publishTime>
+    </File>
+    <File Include="Website/Content/Js/bootstrap.min.js">
+      <publishTime>08/09/2015 17:25:41</publishTime>
+    </File>
+    <File Include="Website/Content/Js/jquery.min.js">
+      <publishTime>11/03/2015 20:16:22</publishTime>
+    </File>
+    <File Include="Website/Content/Js/mvc3.js">
+      <publishTime>05/05/2017 11:58:20</publishTime>
+    </File>
+    <File Include="Website/Content/Js/Smoothstate.js">
+      <publishTime>03/26/2016 17:46:28</publishTime>
+    </File>
+    <File Include="Website/Views/layouts/Content.cshtml">
+      <publishTime>03/31/2016 17:00:27</publishTime>
+    </File>
+    <File Include="Website/Views/layouts/FeaturedCar.cshtml">
+      <publishTime>03/31/2016 15:31:11</publishTime>
+    </File>
+    <File Include="Website/Views/layouts/Main.cshtml">
+      <publishTime>04/10/2016 12:25:47</publishTime>
+    </File>
+    <File Include="Website/Views/layouts/sample.cshtml">
+      <publishTime>03/31/2016 15:36:15</publishTime>
+    </File>
+    <File Include="Website/Views/layouts/Spotlight.cshtml">
+      <publishTime>03/31/2016 15:28:54</publishTime>
+    </File>
+    <File Include="Website/Views/layouts/ThreeColumn.cshtml">
+      <publishTime>08/09/2015 19:08:33</publishTime>
+    </File>
+    <File Include="Website/Views/layouts/View1.cshtml">
+      <publishTime>08/11/2015 18:39:41</publishTime>
+    </File>
+    <File Include="Website/Views/Renderings/Brand.cshtml">
+      <publishTime>04/03/2016 14:05:08</publishTime>
+    </File>
+    <File Include="Website/Views/Renderings/Brands.cshtml">
+      <publishTime>04/03/2016 14:48:29</publishTime>
+    </File>
+    <File Include="Website/Views/Renderings/Car.cshtml">
+      <publishTime>04/03/2016 18:31:46</publishTime>
+    </File>
+    <File Include="Website/Views/Renderings/Discount.cshtml">
+      <publishTime>04/03/2016 18:33:00</publishTime>
+    </File>
+    <File Include="Website/Views/Renderings/Header.cshtml">
+      <publishTime>04/03/2016 13:37:12</publishTime>
+    </File>
+    <File Include="Website/Views/Renderings/OneColumn.cshtml">
+      <publishTime>04/03/2016 17:54:28</publishTime>
+    </File>
+    <File Include="Website/Views/Renderings/Text.cshtml">
+      <publishTime>04/03/2016 13:47:49</publishTime>
+    </File>
+    <File Include="Website/Views/Renderings/ThreeColumn.cshtml">
+      <publishTime>03/31/2016 20:58:37</publishTime>
+    </File>
+    <File Include="Website/Views/Renderings/TwoColumn.cshtml">
+      <publishTime>03/31/2016 20:58:30</publishTime>
+    </File>
+    <File Include="Website/Views/Shared/PageHeader.cshtml">
+      <publishTime>04/03/2016 13:23:25</publishTime>
+    </File>
+    <File Include="Website/Views/Shared/_Layout.cshtml">
+      <publishTime>05/05/2017 11:59:24</publishTime>
+    </File>
+    <File Include="Website/Views/SubLayouts/OneColumn.cshtml">
+      <publishTime>03/31/2016 20:32:19</publishTime>
+    </File>
+    <File Include="Website/Views/SubLayouts/ThreeColumn.cshtml">
+      <publishTime>03/31/2016 20:34:08</publishTime>
+    </File>
+    <File Include="Website/Views/SubLayouts/TwoColumn.cshtml">
+      <publishTime>03/31/2016 20:33:06</publishTime>
+    </File>
+    <File Include="Website/Views/Web.config">
+      <publishTime>04/03/2016 13:30:27</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
