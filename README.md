@@ -8,6 +8,8 @@ class="@(Sitecore.Context.PageMode.IsPageEditor ? "inexpeditor" : "notexpeditor"
 Incase you are not able to see items in Expreience Editor, Try to open it in Content Editor and then go to Publish Tab and click on Experience Editor. Then it will open the page in Exprience Editor.
 
 * Video Link : https://www.youtube.com/watch?v=RarzwrqK9QA
+* Linkedin Post : https://www.linkedin.com/pulse/sitecore-single-page-site-sunny-jhunjhunwala
+
 
 ## Version Info :
 Sitecore 8.0 Update 4 (150621)
